@@ -1,1 +1,3 @@
 # ctr-elf2code
+
+Converts an elf file for the 3ds into a code.bin file for exefs using the stuff here : https://github.com/3DSGuy/Project_CTR/tree/master/makerom (makerom is not made to only rewrite code.bin, you have to rebuild the entire cia/cci/etc so I took and twisted stuff so that it only converts the elf to code.bin). It does not compress the code. I tried to keep original code as intact as possible because I didn't want to break something so yeah you could save a few bytes if you're motivated. I only compiled it for Linux so I'm not sure it works for Windows or MacOS. To build simply execute `make.sh` (I was too lazy to make a makefile).
